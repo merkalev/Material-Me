@@ -1,0 +1,36 @@
+@import "/home/xxsansxv/.config/wofi/colors.css";
+
+* {
+  font-family: JetBrainsMono;
+  border-radius: 15px;
+  /* color: @on_surface; */
+}
+
+#window {
+  border-radius: 20px;
+  border: 2px solid @primary;
+  background-color: @secondary_container;
+}
+
+#outer-box {
+  padding: 10px;
+}
+
+#input {
+  border-radius: 15px;
+  border: 2px solid @primary;
+  margin: 0 0 4px;
+}
+
+#entry {
+  color: @on_surface;
+  margin: 3px 2px;
+  padding: 4px 8px;
+  background-color: @surface_container_high;
+  transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+}
+
+#entry:selected {
+  color: @surface_container;
+  background-color: @secondary;
+}

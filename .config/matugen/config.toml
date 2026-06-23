@@ -1,0 +1,36 @@
+[config]
+reload-apps = false
+prefer = "saturation"
+
+[templates.hyprland]
+input_path = "~/.config/matugen/templates/hyprland-colors.lua.template"
+output_path = "~/.config/hypr/confd/colors.lua"
+
+[templates.waybar]
+input_path = "~/.config/matugen/templates/rgba-definecolors-css.template"
+output_path = "~/.config/waybar/colors.css"
+
+[templates.wlogout]
+input_path = "~/.config/matugen/templates/rgba-definecolors-css.template"
+output_path = "~/.config/wlogout/colors.css"
+
+[templates.wofi]
+input_path = "~/.config/matugen/templates/rgb-definecolors-css.template"
+output_path = "~/.config/wofi/colors.css"
+
+[templates.mako]
+input_path = "~/.config/matugen/templates/mako.toml.template"
+output_path = "~/.config/mako/config"
+
+[templates.swayosd]
+input_path = "~/.config/matugen/templates/rgb-definecolors-css.template"
+output_path = "~/.config/swayosd/colors.css"
+
+[templates.accentrgbkde]
+input_path = "~/.config/matugen/templates/Accentcolor-RGB-KDEaccent.template"
+output_path = "~/.config/matugen/templateD/Accentcolor-KDE-RGB.conf"
+
+# unused gtk4 block, DO NOT USE, THIS CAUSES MATUGEN TO FAIL as gtk.css in the .config folder is a symlink to kde breeze which already syncs anyways, duh.
+# [templates.gtk4]
+# input_path = "~/.config/matugen/templates/gtk4-colors.css.template"
+# output_path = "~/.config/gtk-4.0/gtk.css"

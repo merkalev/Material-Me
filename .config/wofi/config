@@ -1,0 +1,9 @@
+style=/home/xxsansxv/.config/wofi/style.css
+colors=/home/xxsansxv/.config/wofi/colors
+# allow_images=true
+lines=6
+width=40%
+hide_scroll=true
+dynamic_lines=true
+dynamic_shrink=true
+# matching=fuzzy

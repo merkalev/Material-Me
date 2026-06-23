@@ -1,0 +1,16 @@
+@import 'colors.css';
+
+window#osd {
+  border-radius: 999px;
+  border: 2px solid @primary;
+  background-color: @secondary_container;
+}
+
+image, label {
+  color: @on_surface;
+}
+
+progress {
+  background: @on_surface;
+}
+
