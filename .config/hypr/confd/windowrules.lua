@@ -77,3 +77,9 @@ hl.layer_rule({
     ignore_alpha = 0,
     blur = true,
 })
+
+hl.window_rule({
+    name = "MPV-Float",
+    match = { class = "mpv" },
+    float = true,
+})
