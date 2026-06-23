@@ -30,6 +30,10 @@ output_path = "~/.config/swayosd/colors.css"
 input_path = "~/.config/matugen/templates/Accentcolor-RGB-KDEaccent.template"
 output_path = "~/.config/matugen/templateD/Accentcolor-KDE-RGB.conf"
 
+[templates.kitty]
+input_path = "~/.config/matugen/templates/kitty.template"
+output_path = "~/.config/kitty/colors.conf"
+
 # unused gtk4 block, DO NOT USE, THIS CAUSES MATUGEN TO FAIL as gtk.css in the .config folder is a symlink to kde breeze which already syncs anyways, duh.
 # [templates.gtk4]
 # input_path = "~/.config/matugen/templates/gtk4-colors.css.template"
