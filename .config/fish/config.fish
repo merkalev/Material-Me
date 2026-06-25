@@ -16,5 +16,10 @@ alias tinyfetch="fastfetch -c small.jsonc"
 # function fish_greeting
 #     tinyfetch
 # end
+#
+
+function fish_greeting
+    bash /home/xxsansxv/.config/fish/GreetMeInBash.sh
+end
 
 # thefuck --alias | source
