@@ -7,3 +7,4 @@ hide_scroll=true
 dynamic_lines=true
 dynamic_shrink=true
 # matching=fuzzy
+term=kitty
