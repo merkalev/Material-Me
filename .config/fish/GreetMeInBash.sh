@@ -30,6 +30,8 @@ greetings+=("That one guy who is ${RED}ACTUALLY${RESET} worse than the 67 kid:")
 greetings+=("DO NOT BUY THIS KEYBO-")
 greetings+=("Sudo password for XxcharaxV:")
 greetings+=("Stay ${YELLOW}DETERMINED${RESET}")
+greetings+=("Du sollte einfach ${YELLOW}spazz machen${RESET} :)")
+greetings+=("${MAGENTA}DU BIST GUT GENUGGGG${RESET}")
 
 howmanyGreets=${#greetings[@]}
 whichonedidBashpickforya=$(shuf -i 0-$((howmanyGreets - 1)) -n 1)
