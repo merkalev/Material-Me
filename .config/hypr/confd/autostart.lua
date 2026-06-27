@@ -17,7 +17,7 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("fcitx5 -d --replace")
     hl.exec_cmd("hypridle")
     hl.exec_cmd("systemctl --user start xdg-desktop-portal-wlr")
-    hl.exec_cmd("swaync")
+    -- hl.exec_cmd("mako")
     -- hl.exec_cmd("mako")        -- uncomment if mako isn't already a systemd user service
     -- hl.exec_cmd(programs.terminal)
     hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")

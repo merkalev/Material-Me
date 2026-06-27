@@ -11,15 +11,16 @@
   "spacing": 4, // Gaps between modules (4px)
   // Choose the order of the modules
   "modules-left": [
-    "hyprland/workspaces",
+    // "hyprland/workspaces",
     // "hyprland/mode",
     // "hyprland/scratchpad",
-    "custom/media"
-    // "clock"
+    "custom/media",
+    "clock"
   ],
   "modules-center": [
+    "hyprland/workspaces"
     // "hyprland/window"
-    "clock"
+    // "clock"
   ],
   "modules-right": [
     // "mpd",
@@ -113,6 +114,8 @@
     "max-length": 135
   },
   "custom/notification": {
+    "tooltip": true,
+    "tooltip-format": "{0} notifications",
     "format": "{icon}",
     "format-icons": {
       "notification": "",

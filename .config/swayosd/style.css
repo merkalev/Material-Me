@@ -6,11 +6,25 @@ window#osd {
   background-color: @secondary_container;
 }
 
-image, label {
+image,
+label {
   color: @on_surface;
 }
 
 progress {
+  min-height: 10px;
   background: @on_surface;
+  border: none;
+  outline: none;
+  outline-color: transparent;
+  box-shadow: none;
 }
 
+trough {
+  min-height: 10px;
+  background: @surface_container_highest;
+  border: none;
+  outline: none;
+  outline-color: transparent;
+  box-shadow: none;
+}
