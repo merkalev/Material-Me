@@ -63,6 +63,7 @@ greet_function() {
   greetings+=("Family dissapointment is temporary, C Programming Language is eternal") # No_Pollution6135
   greetings+=("Scripting fun projects is entertaining, now get back to work.") # Superfly-Samurai
   greetings+=("What other thinks of you is none of your fucking business.") # Striking_Snail
+  greetings+=("One shouldn't be so consumed by the thrill of possibility that they forget to pause and consider if they should") #Damglador (holy this is peak)
 
   # this just counts how many items there are in the greetings array, then picks one of the indexes.
   howmanyGreets=${#greetings[@]}
