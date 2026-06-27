@@ -1,0 +1,21 @@
+
+$primary = {{colors.primary.default.rgba}}
+$secondary = {{colors.secondary.default.rgba}}
+$tertiary = {{colors.tertiary.default.rgba}}
+
+$primary_container = {{colors.primary_container.default.rgba}}
+$secondary_container = {{colors.secondary_container.default.rgba}}
+$tertiary_container = {{colors.tertiary_container.default.rgba}}
+
+$surface_dim = {{colors.surface_dim.default.rgba}}
+$surface = {{colors.surface.default.rgba}}
+$surface_bright = {{colors.surface_bright.default.rgba}}
+$surface_container_lowest = {{colors.surface_container_lowest.default.rgba}}
+$surface_container_low = {{colors.surface_container_low.default.rgba}}
+$surface_container = {{colors.surface_container.default.rgba}}
+$surface_container_high = {{colors.surface_container_high.default.rgba}}
+$surface_container_highest = {{colors.surface_container_highest.default.rgba}}
+
+$on_surface = {{colors.on_surface.default.rgba}}
+$on_surface_variant = {{colors.on_surface_variant.default.rgba}}
+$outline = {{colors.outline.default.rgba}}
