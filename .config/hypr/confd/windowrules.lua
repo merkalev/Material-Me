@@ -89,3 +89,9 @@ hl.window_rule({
     match = { class = "org.kde.haruna" },
     float = true,
 })
+
+hl.window_rule({
+    name = "WTF-kitty-on-touchpad",
+    match = { class = "kitty" },
+    scroll_touchpad = 5,
+})
