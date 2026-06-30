@@ -1,6 +1,7 @@
 style=/home/xxsansxv/.config/wofi/style.css
 colors=/home/xxsansxv/.config/wofi/colors
-# allow_images=true
+allow_images=true
+allow_markup=true
 lines=6
 width=40%
 hide_scroll=true

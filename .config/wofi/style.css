@@ -34,3 +34,8 @@
   color: @surface_container;
   background-color: @secondary;
 }
+
+image {
+  margin-left: 7px;
+  margin-right: 10px;
+}
