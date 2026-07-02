@@ -1,10 +1,62 @@
 @import url('./colors.css');
 
 :root {
-  --zen-main-browser-background: var(--surface-container-highest);
-  --zen-themed-toolbar-bg-transparent: var(--surface-container-highest) !important;
+  --zen-main-browser-background: var(--secondary-container);
+  --zen-themed-toolbar-bg-transparent: rgb(var(--secondary-container) / 0.5) !important;
+  --zen-primary-color: var(--primary) !important;
 }
 
-.browserStack browser {
+#zen-toolbar-background {
+  border-radius: 15px !important;
+  background-color: var(--secondary-container) !important;
+  border: 2px solid var(--primary);
+  --zen-main-browser-background-toolbar: rgba(23, 23, 26, 0.2) !important;
+}
+
+#navigator-toolbox {
+  background-color: rgb(var(--secondary-container) / 0.5);
+}
+
+.toolbarbutton-1 {
+  background-color: var(--surface-container-high);
+  border-radius: 8px;
+  margin: 3px;
+  fill: var(--on-surface) !important;
+  color: var(--on-surface) !important;
+  transition: background-color 150ms ease-in-out, color 150ms ease-in-out, fill 150ms ease-in-out !important;
+}
+
+.toolbarbutton-1:hover {
+  background-color: var(--secondary) !important;
+  fill: var(--surface-container) !important;
+  color: var(--surface-container) !important;
+}
+
+.chromeclass-toolbar-additional {
+  margin: 3px !important;
+}
+
+toolbaritem {
+  margin: 3px;
+}
+
+toolbaritem#urlbar-container.urlbar-container {
+  margin: 0px;
+  background-color: transparent;
+}
+
+#tabs-newtab-button {
+  background-color: var(--surface-container-highest);
+}
+
+.tabbrowser-tab {
   background-color: var(--surface-container-highest) !important;
+  border-radius: 8px;
+  color: var(--on-surface) !important;
+  transition: background-color 150ms ease-in-out, color 150ms ease-in-out !important;
+}
+
+.tabbrowser-tab:hover {
+  background-color: var(--secondary) !important;
+  color: var(--surface-container) !important;
 }
