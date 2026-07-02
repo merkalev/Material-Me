@@ -46,17 +46,35 @@ toolbaritem#urlbar-container.urlbar-container {
 }
 
 #tabs-newtab-button {
-  background-color: var(--surface-container-highest);
+  background-color: transparent;
 }
 
-.tabbrowser-tab {
-  background-color: var(--surface-container-highest) !important;
-  border-radius: 8px;
-  color: var(--on-surface) !important;
-  transition: background-color 150ms ease-in-out, color 150ms ease-in-out !important;
+/* .tab-background { */
+/* background-color: var(--surface-container-highest) !important; */
+/* border-radius: 8px; */
+/* color: var(--on-surface) !important; */
+/* transition: background-color 150ms ease-in-out, color 150ms ease-in-out !important; */
+/* } */
+
+/* .tab-background:hover { */
+/* background-color: var(--secondary) !important; */
+/* color: var(--surface-container) !important; */
+/* } */
+
+#tabbrowser-tabs {
+  & .tabbrowser-tab {
+    & [selected] .tab-background {
+      background-color: var(--secondary) !important;
+      color: var(--surface-container) !important;
+    }
+  }
 }
 
-.tabbrowser-tab:hover {
-  background-color: var(--secondary) !important;
-  color: var(--surface-container) !important;
+.tab-content {
+  &:is([selected], [multiselected]) {
+    color: var(--surface-container) !important;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    margin: 2px;
+  }
 }
