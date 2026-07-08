@@ -8,7 +8,7 @@ hl.env("XCURSOR_THEME", "Bibata-Modern-Classic")
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
 
-hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
+hl.env("QT_QPA_PLATFORMTHEME", "kde")
 hl.env("QT_QUICK_CONTROLS_STYLE", "org.kde.desktop")
 
 hl.env("XDG_MENU_PREFIX", "arch-")
