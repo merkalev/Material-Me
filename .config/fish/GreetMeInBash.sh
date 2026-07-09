@@ -46,6 +46,7 @@ greet_function() {
   greetings+=("Du sollte einfach ${YELLOW}spazz machen :)${RESET}")
   greetings+=("${MAGENTA}DU BIST GUT GENUGGGG${RESET}")
   greetings+=("${CYAN}'This entire time... it was a symlink?'${RESET} ${RED}'Always has been.'${RESET}")
+  greetings+=("${CYAN}'This entire time... THIS HYPRLAND RICE IS RUNNING ON A FUCKING TTY??????'${RESET} ${RED}'Everything has been..'${RESET}")
   greetings+=("Save the ${RED}sin,${RESET} face the ${MAGENTA}E.G.O${RESET}")
   greetings+=("Hey, ${YELLOW}it's gonna be alright :)${RESET}")
   greetings+=("sudo systemctl mask systemd-haters.service")
