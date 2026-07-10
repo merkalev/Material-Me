@@ -291,7 +291,7 @@
         ""
       ]
     },
-    "on-click": "pavucontrol"
+    "on-click": "kcmshell6 kcm_pulseaudio"
   },
   "custom/media": {
     "format": "{icon} {text}",
