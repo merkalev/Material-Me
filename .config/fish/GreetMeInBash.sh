@@ -26,7 +26,7 @@ greet_function() {
   # Add more greetings here!
   # also, PLEASE use ${RESET} after every, every single color invocation. otherwise  you wouldn't want mako to show <span dniuqwfouq> do you?
   greetings+=("Don't bet your life on perfection.")
-  greetings+=("You're using ${CYAN}Arch${RESET}, BTW" "${CYAN}CachyOS${RESET}, BTW")
+  greetings+=("You're using ${CYAN}CachyOS${RESET}, BTW" "${CYAN}CachyOS${RESET}, BTW")
   greetings+=("Go get those bugs!")
   greetings+=("You must've be tired configuring this, lol.")
   greetings+=("Just ${YELLOW}Yank it all into registy +,${RESET} bro.")
