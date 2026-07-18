@@ -10,7 +10,7 @@ hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind("print", hl.dsp.exec_cmd(programs.screenshot .. " gui"))
 hl.bind(mainMod .. " + period", hl.dsp.exec_cmd(programs.emojipicker))
 hl.bind(mainMod .. " + SHIFT + V", hl.dsp.exec_cmd("cliphist list | wofi --dmenu | cliphist decode | wl-copy"))
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("bash -lc waypaper"))
+hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("bash -lc waypaper"))
 hl.bind("ALT + space", hl.dsp.exec_cmd(os.getenv("HOME") .. "/.local/bin/wofi-toggle"))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(programs.browser))
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(programs.terminal))
@@ -40,6 +40,9 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + " .. key,         hl.dsp.focus({ workspace = i }))
     hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
 end
+
+-- hymissions thingn yaayyyyy
+hl.bind(mainMod .. " + W", hl.plugin.hymission.toggle)
 
 -- Special workspace (scratchpad)
 hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
