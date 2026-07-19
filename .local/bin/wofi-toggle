@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# Generic toggle-launcher wrapper.
+#
+# Usage: wofi-toggle <tag> <process_name> <command...>
+#   tag           - a name you choose to identify this launcher (e.g. "drun", "clip", "emoji")
+#   process_name  - the actual GUI process to look for / kill (e.g. wofi, rofi, rofimoji)
+#   command...    - what to actually run; quote as one string if it uses pipes
+#
+# Behaviour:
+#   nothing open            -> launch it
+#   same tag open again     -> close it
+#   different tag open      -> close the old one, launch the new one
+
+tag="$1"; shift
+proc="$1"; shift
+cmd="$*"
+
+state_file="${XDG_RUNTIME_DIR:-/tmp}/wofi-toggle.state"
+
+if [[ -f "$state_file" ]]; then
+  read -r old_tag old_proc < "$state_file"
+
+  if [[ -n "$old_proc" ]] && pgrep -x "$old_proc" > /dev/null; then
+    pkill -x "$old_proc"
+    while pgrep -x "$old_proc" > /dev/null; do
+      sleep 0.02
+    done
+
+    if [[ "$old_tag" == "$tag" ]]; then
+      rm -f "$state_file"
+      exit 0
+    fi
+  fi
+fi
+
+echo "$tag $proc" > "$state_file"
+exec bash -c "$cmd"
