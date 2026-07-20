@@ -28,7 +28,7 @@ Before these dotfiles may serve thee faithfully, thou must first ensure that cer
 Amongst them are:
 
 - **Hyprland**
-- **Hymission for Hyprland** 
+- **Hymission Hyprland extension** 
 - **Waybar**
 - **SwayOSD**
 - **Mako**
