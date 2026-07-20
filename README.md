@@ -55,6 +55,27 @@ Amongst them are:
 
 Should any be absent, thy package manager shall readily furnish them, though the manner thereof differeth according to the distribution thou dost employ.
 
+
+## Of the Installation Thereof
+
+Shouldst thou desire to make these dotfiles thine own, thou mayest proceed in the following wise.
+
+1. First, ensure that all the dependencies aforelisted have been installed upon thy system. Should any be lacking, consult the package manager proper to thy distribution and procure them accordingly.
+
+2. Thereafter, obtain this repository by cloning it:
+
+   ```bash
+   git clone https://github.com/XxsansxV/Material-Me.git
+   ```
+
+3. Copy such files as thou desirest into thy home directory, taking care not to overwrite aught of value unless thou hast first made due provision by way of a backup.
+
+4. Amend those portions of the configuration that are peculiar unto thine own machine. Most especially shouldst thou examine **.config/hypr/confd/monitors.lua**, together with **.config/waypaper/config.ini**, for these contain settings ordained for mine own hardware and therefore may not accord with thine.
+
+5. Once these matters have been attended unto, either begin a fresh Hyprland session or reload the affected components, and the configuration should thereafter present itself in its intended form.
+
+Should any part thereof fail to behave as expected, be not overmuch dismayed. Dotfiles are creatures of many habits, and each system hath customs of its own. A small measure of adjustment is oft required before all things dwell together in harmony.
+
 ## A Necessary Admonition
 
 Take heed before thou proceedest.

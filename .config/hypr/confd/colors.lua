@@ -3,9 +3,9 @@
 
 local M = {}
 
-M.primary   = "aac7ff"
-M.secondary = "bec6dc"
-M.surface   = "111318"
-M.on_surface = "e2e2e9"
+M.primary   = "ffb599"
+M.secondary = "e7beaf"
+M.surface   = "1a110e"
+M.on_surface = "f1dfd9"
 
 return M
