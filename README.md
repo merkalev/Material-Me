@@ -28,7 +28,7 @@ Before these dotfiles may serve thee faithfully, thou must first ensure that cer
 Amongst them are:
 
 - **Hyprland**
-- **Hymission Hyprland extension** 
+- **Hymission** Hyprland extension
 - **Waybar**
 - **SwayOSD**
 - **Mako**
@@ -42,6 +42,7 @@ Amongst them are:
 - **Cliphist**
 - **KDE Plasma**
 - **Jetbrains Mono NFP** (For the proper rendering icons)
+- **Bibata-Modern-Classic** (Cursor)
 - Any further utilities whereupon any of these utilities may depend.
 
 Should any be absent, thy package manager shall readily furnish them, though the manner thereof differeth according to the distribution thou dost employ.
@@ -50,7 +51,7 @@ Should any be absent, thy package manager shall readily furnish them, though the
 
 Take heed before thou proceedest.
 
-These dotfiles were devised and tested upon a **CachyOS** installation wherein both **Hyprland** and **KDE Plasma** were present. Though Hyprland be the compositor for which this configuration was chiefly fashioned, certain portions thereof do nevertheless lean upon the presence of KDE Plasma.
+These dotfiles were devised and tested upon a Laptop's **CachyOS** installation wherein both **Hyprland** and **KDE Plasma** were present. Though Hyprland be the compositor for which this configuration was chiefly fashioned, certain portions thereof do nevertheless lean upon the presence of KDE Plasma.
 
 Most notable amongst these are Waybar modules that make use of **kcm_shell6**, together with sundry commands (such as those executed by **Waypaper**(plasma-apply-colorscheme) after the generation of a new colour scheme) which invoke KDE utilities.
 

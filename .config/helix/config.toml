@@ -1,0 +1,12 @@
+theme = "tokyonight_transparent"
+
+[editor]
+shell = ["fish", "-c"]
+
+[editor.soft-wrap]
+enable = true
+
+[editor.indent-guides]
+render = true
+character = "│"
+skip-levels = 0
