@@ -40,6 +40,7 @@ Amongst them are:
 - **Kitty**
 - **Rofimoji**
 - **Cliphist**
+- **KDE Plasma**
 - **Jetbrains Mono NFP** (For the proper rendering icons)
 - Any further utilities whereupon any of these utilities may depend.
 
@@ -51,7 +52,7 @@ Take heed before thou proceedest.
 
 These dotfiles were devised and tested upon a **CachyOS** installation wherein both **Hyprland** and **KDE Plasma** were present. Though Hyprland be the compositor for which this configuration was chiefly fashioned, certain portions thereof do nevertheless lean upon the presence of KDE Plasma.
 
-Most notable amongst these are Waybar modules that make use of **kcm_shell6**, together with sundry commands (such as those executed by **Matugen** after the generation of a new colour scheme) which invoke KDE utilities.
+Most notable amongst these are Waybar modules that make use of **kcm_shell6**, together with sundry commands (such as those executed by **Waypaper**(plasma-apply-colorscheme) after the generation of a new colour scheme) which invoke KDE utilities.
 
 Should thy system lack KDE Plasma, these components must either be altered to employ suitable alternatives or removed altogether. Failing this, thou mayest find that certain features refuse to function, whilst others may occasion errors or break entirely.
 
@@ -64,6 +65,8 @@ Should it please thee to fork this repository, to borrow from it, or to fashion 
 Yet be thou warned that certain parameters are written expressly for mine own machine. Most notable amongst these are those found within **.config/hypr/confd/monitors.lua** and **.config/waypaper/config.ini**, and therefore they must be amended to accord with the order of thine own system, lest confusion and mischief ensue.
 
 ## A Final Benediction
+
+Take whatever thou wilt. Build upon it. Improve it. Make it thine own. I ask only that my name remain where these labours first began.
 
 If these humble dotfiles should lighten thy labours, stir thy curiosity, or serve as the foundation of some greater work, then I shall reckon their publication well worthwhile.
 
