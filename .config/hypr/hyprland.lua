@@ -8,7 +8,9 @@
 
 require("confd.monitors")
 require("confd.env")
+-- use confd.appearance for full eye candy. confd.ugly-appearance if you want it.
 require("confd.appearance")
+-- require("confd.ugly-appearance")
 require("confd.input")
 require("confd.autostart")
 require("confd.keybinds")
