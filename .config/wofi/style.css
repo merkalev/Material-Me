@@ -1,4 +1,4 @@
-@import "colors.css";
+@import url(".config/wofi/colors.css");
 
 * {
   font-family: JetBrainsMono;
