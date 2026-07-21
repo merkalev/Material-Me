@@ -89,15 +89,6 @@ Godspeed.
 
 ## English
 
-<img width="1920" height="1080" alt="Material Me with a blue Frieren wallpaper" src="https://github.com/user-attachments/assets/43623cca-2c76-40c7-8aeb-ec6fb08d4f8c" />
-<p align="center"><small>Material Me with a blue-ish Frieren wallpaper.</small></p>
-
-<img width="1920" height="1080" alt="Wlogout with a pink accent" src="https://github.com/user-attachments/assets/28f2c42c-023f-4081-8679-36fa3fe89b71" />
-<p align="center"><small>Wlogout with a pink accent.</small></p>
-
-<img width="1920" height="1080" alt="Material Me with an orange accent" src="https://github.com/user-attachments/assets/2c435284-9550-4a06-8ae9-49f39143b989" />
-<p align="center"><small>Material Me with an accent extracted from a Giyu Tomioka wallpaper.</small></p>
-
 Material Me is a personal Hyprland dotfiles collection with a look inspired by Google Material Design. It includes configuration for:
 
 - Hyprland, Hypridle, and Hyprlock
