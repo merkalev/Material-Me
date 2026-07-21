@@ -68,7 +68,7 @@ hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
 
 -- hymissions thingn yaayyyyy (reenable sometimes again)
--- hl.bind(mainMod .. " + W", hl.plugin.hymission.toggle)
+hl.bind(mainMod .. " + W", hl.plugin.hymission.toggle)
 
 
 --- MULTIMEDIA KEYS
